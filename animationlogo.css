@@ -1,0 +1,24 @@
+ /* The animation code */
+ @keyframes imgcolor {
+    0%   { background-color: blueviolet}
+    20%  {background-color: crimson;}
+    50%  {background-color: darkblue;}
+    
+    100% {background-color: yellow;
+    transform: rotate(90deg);}
+    
+ }
+  
+  /* The element to apply the animation to */
+  
+  img {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation-name: imgcolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    border-radius: 60%;  
+  } 
